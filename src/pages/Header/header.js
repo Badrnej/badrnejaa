@@ -112,7 +112,7 @@ function Header() {
                     </div>    
                 <div className="small_menu">
                     <ul>
-                        <li className="menu-one"><NavLink className="nav-link" onClick={check} to="/">Home</NavLink></li>
+                        <li className="menu-one"><NavLink className="nav-link" onClick={check} to="/badrnejaa">Home</NavLink></li>
                         <li className="menu-two"><NavLink className="nav-link" onClick={check} to="/work">Work</NavLink></li>
                         <li className="menu-three"><a className="nav-link" href="https://medium.com/@nejaa.badr" target="_blank" rel="noreferrer">Writing</a></li>
                         <li className="menu-four"><a className="nav-link" href="https://drive.google.com/file/d/1Zd2yDHRYkjpsAndXEostntPRvF97XV4Q/view?usp=sharing" target="_blank" rel="noreferrer">Resume</a></li>
