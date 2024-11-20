@@ -143,10 +143,10 @@ function Home() {
                     <p><span>✌🏻</span> Hi there! I'm BADREDDINE NEJAA</p>
                 </div>
                 <div className="content-primary">
-                    <h1>a <span>Software Engineer</span>. I help startups <span>launch</span> and <span>grow</span> their products</h1>
+                <h1>A <span>Software Engineer</span> specialized in <span>Backend</span> and <span>Full-Stack Web Development</span>.</h1>
                 </div>
                     <div className="content-secondary">
-                        <p className="mb-4">I am a software engineer with more than one year of experience. Recognized as a practical and effective developer, experienced in leading cross-functional teams in a time-pressured setting to complete projects on schedule and within budget.</p>
+                        <p className="mb-4">I am a software engineer specializing in backend and full-stack web development, with expertise in Laravel and Vue.js. I invite you to take a look at my projects!</p>
                         <div className="flex space-x-4">
                             <button
                                 onClick={() => window.open('https://www.linkedin.com/in/badr-nejaa/', '_blank', 'noopener,noreferrer')}
