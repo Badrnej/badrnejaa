@@ -1,0 +1,187 @@
+.anime {
+    max-width: 100%;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .load {
+        width: 70%;
+        animation: fadeInUp 1s ease forwards, fadeOutUp 1s ease forwards 4s;
+        #lo {
+            // animation: fill 0.5s ease forwards 3.5s;
+            #roar {
+                #roar-one {
+                    stroke-dasharray: 785;
+                    stroke-dashoffset: 785;
+                    animation: line-anim 1.5s ease forwards, fill 0.5s ease forwards 3.5s;
+                }
+                #roar-two {
+                    stroke-dasharray: 785;
+                    stroke-dashoffset: 785;
+                    animation: line-anim 1.5s ease forwards 0.2s, fill 0.5s ease forwards 3.5s;
+                }
+                #roar-three {
+                    stroke-dasharray: 785;
+                    stroke-dashoffset: 785;
+                    animation: line-anim 1.5s ease forwards 0.4s, fill 0.5s ease forwards 3.5s;
+                }
+                #roar-four {
+                    stroke-dasharray: 785;
+                    stroke-dashoffset: 785;
+                    animation: line-anim 1.5s ease forwards 0.6s, fill 0.5s ease forwards 3.5s;
+                }
+                #roar-five {
+                    stroke-dasharray: 785;
+                    stroke-dashoffset: 785;
+                    animation: line-anim 1.5s ease forwards 0.8s, fill 0.5s ease forwards 3.5s;
+                }
+                #roar-six {
+                    stroke-dasharray: 785;
+                    stroke-dashoffset: 785;
+                    animation: line-anim 1.5s ease forwards 1s, fill 0.5s ease forwards 3.5s;
+                }
+                #roar-seven {
+                    stroke-dasharray: 785;
+                    stroke-dashoffset: 785;
+                    animation: line-anim 1.5s ease forwards 1.2s, fill 0.5s ease forwards 3.5s;
+                }
+                #roar-eight {
+                    stroke-dasharray: 785;
+                    stroke-dashoffset: 785;
+                    animation: line-anim 1.5s ease forwards 1.2s, fill 0.5s ease forwards 3.5s;
+                }
+            }
+        }
+    }
+    .preload {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        // animation: fadeInUp 10s ease forwards;
+        @media (min-width: 480px) and (max-width: 759px) {
+            background-size: contain;
+        }
+        @media (max-width: 479px) {
+            background-size: contain;
+        }
+        .loader {
+            width: 70vw !important;
+        }
+        .progress {
+            width: 70vw !important;
+            color: #14e956 !important;
+            display: flex !important;
+            justify-content: center !important;
+            align-items: center !important;
+        }
+    }
+}
+
+
+.css-eglki6-MuiLinearProgress-root {
+    height: 5px !important;
+    background-color: #e8fdee !important;
+    border-radius: 5px !important;
+    @media (min-width: 480px) and (max-width: 759px) {
+        height: 5px !important;
+    }
+    @media (max-width: 479px) {
+        height: 5px !important;
+    }
+}
+
+.css-5xe99f-MuiLinearProgress-bar1 {
+    background-color: #14e956 !important;
+}
+
+.css-1kjyx0o-MuiTypography-root {
+    margin-top: 2rem !important;
+    font-family: "ExoSpace" !important;
+    font-weight: 900 !important;
+    font-size: 2rem !important;
+    line-height: 1.43;
+    @media (min-width: 480px) and (max-width: 759px) {
+        font-size: 1.5rem !important;
+        line-height: 1.15 !important;
+    }
+    @media (max-width: 479px) {
+        font-size: 1.5rem !important;
+        line-height: 1 !important;
+    }
+}
+
+.css-7p5u54 {
+    height: 5px !important;
+    background-color: #e8fdee !important;
+    border-radius: 5px !important;
+    @media (min-width: 480px) and (max-width: 759px) {
+        height: 5px !important;
+    }
+    @media (max-width: 479px) {
+        height: 5px !important;
+    }
+}
+
+.css-t752vm {
+    background-color: #14e956 !important;
+}
+
+.css-16e5s8c {
+    margin-top: 2rem !important;
+    // font-family: "Cyborg" !important;
+    font-family: "ExoSpace" !important;
+    font-weight: 900 !important;
+    font-size: 2rem !important;
+    line-height: 1.43;
+    @media (min-width: 480px) and (max-width: 759px) {
+        font-size: 1.5rem !important;
+        line-height: 1.15 !important;
+    }
+    @media (max-width: 479px) {
+        font-size: 1.5rem !important;
+        line-height: 1 !important;
+    }
+}
+
+
+@keyframes line-anim {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes fill {
+    from {
+        fill: transparent;
+    }
+    to {
+        fill: #14e956;
+    }
+}
+
+@keyframes fadeOutUp {
+    from {
+      opacity: 1;
+    }
+  
+    to {
+      opacity: 0;
+      transform: translate3d(0, -100%, 0);
+    }
+  }
+
+  @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translate3d(0, 100%, 0);
+    }
+  
+    100% {
+      opacity: 1;
+      transform: translate3d(0, 0, 0);
+    }
+  }
