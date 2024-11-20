@@ -4,14 +4,14 @@ export const ProjectData = [
         description: "Gestock Is A Stock And Delivery Management Solution Optimized With Laravel And Vue.js. It Ensures Real-Time Tracking, Data Security, And An Intuitive Interface To Simplify Logistics For Businesses.",
         img: "https://i.ibb.co/q583zWc/GSL.png",
         stack: "Laravel/vue",
-        link: "#"
+        link: "https://github.com/Badrnej/Webstack---Portfolio-Project"
     },
     {
         title: "Notely",
         description: "Notely is an innovative company specializing in productivity solutions. We are looking to develop a web application for managing notes for our users. This application should allow users to create, organize and manage their notes in a simple and efficient way.",
         img: "https://i.ibb.co/23c2t3K/noteblade.png",
         stack: "Laravel",
-        link: "#"
+        link: "https://github.com/Badrnej/NoteBlade---Gestion-des-notes"
     },
     {
         title: "Github-Insights",
@@ -39,7 +39,7 @@ export const ProjectData = [
         description: "TaskMaster is a task management application designed to streamline workflow and boost productivity. Built with Vue.js and Laravel, it features task assignment, progress tracking, and a user-friendly interface for efficient team collaboration.",
         img: "https://i.ibb.co/J7tpDnf/Capture-d-cran-2024-11-02-01-31-23.png",
         stack: "laravel",
-        link: "#"
+        link: "https://github.com/Badrnej/taskMaster"
     },
     {
         title: "Cultural Competition",
