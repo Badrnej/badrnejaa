@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkBADRNEJ=self.webpackChunkBADRNEJ||[]).push([[510],{510:function(e,s,l){l.r(s);var n=l(184);s.default=function(){return(0,n.jsx)("div",{className:"blog",children:(0,n.jsx)("p",{children:"\xa9 Copyright 2024 All Rights Reserved."})})}}}]);
-//# sourceMappingURL=510.3369b2a7.chunk.js.map
