@@ -1,0 +1,7 @@
+<svg viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fond ovale vert pour le logo PHP -->
+  <ellipse cx="64" cy="64" rx="60" ry="40" fill="#0ea33c" />
+
+  <!-- Texte PHP blanc centré -->
+  <text x="50%" y="50%" fill="#FFFFFF" font-size="36" font-family="Arial, sans-serif" font-weight="bold" text-anchor="middle" dy=".35em">PHP</text>
+</svg>
