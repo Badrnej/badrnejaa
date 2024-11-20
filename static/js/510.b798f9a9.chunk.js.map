@@ -1,1 +1,0 @@
-{"version":3,"file":"static/js/510.b798f9a9.chunk.js","mappings":"8HAQA,UARA,WACI,OACI,gBAAKA,UAAU,OAAf,UACI","sources":["pages/Blog/blog.js"],"sourcesContent":["function Blog() {\n    return (\n        <div className=\"blog\">\n            <p>&copy; Copyright 2024 All Rights Reserved.</p>\n        </div>\n    )\n}\n\nexport default Blog"],"names":["className"],"sourceRoot":""}
